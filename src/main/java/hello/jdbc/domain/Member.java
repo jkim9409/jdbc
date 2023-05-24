@@ -3,6 +3,7 @@ package hello.jdbc.domain;
 
 import lombok.Data;
 
+//EqualsandHashCode already included
 @Data
 public class Member {
     private String MemberId;
