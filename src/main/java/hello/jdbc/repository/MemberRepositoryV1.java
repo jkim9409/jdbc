@@ -16,6 +16,7 @@ import java.util.NoSuchElementException;
 @Slf4j
 public class MemberRepositoryV1 {
 
+    //Datasource is Abstraction method to get the connection
     private final DataSource dataSource;
 
     public MemberRepositoryV1(DataSource dataSource) {
